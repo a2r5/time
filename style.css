@@ -1,0 +1,79 @@
+body, html {
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+}
+h1 {
+  visibility: hidden;
+}
+.container {
+  display: block;
+  margin: 1em auto;
+}
+
+#copyright {
+  text-align: center;
+  font-size: .8em;
+  margin-top: 5em;
+}
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #555;
+}
+a:hover{
+  color:#222;
+}
+button {
+  background: #000;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  color: #444;
+  transition: color .3s;
+  cursor: pointer;
+}
+#time {
+  font-size: 5em;
+  margin: 3em 0 .5em;
+}
+
+#date {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+ul {
+  font-size: 1.5em;
+  color: #333;
+}
+ul li{
+  margin: 1em;
+  display: inline-block;
+}
+.glow {
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e50022, 0 0 40px #e50022, 0 0 50px #e50022, 0 0 60px #e50022, 0 0 70px #e50022;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #e20000, 0 0 40px #e20000, 0 0 50px #e20000, 0 0 60px #e20000, 0 0 70px #e20000, 0 0 80px #e20000;
+  }
+}
